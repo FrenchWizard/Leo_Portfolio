@@ -55,7 +55,6 @@ Where continent is not NULL
 GROUP BY Location
 ORDER BY TotalDeathCount desc
 
-
 -- BREAKING THINGS DOWN BY CONTINENT
 
 -- Showing contintents with the highest death count per population
@@ -66,7 +65,6 @@ FROM PortfolioProject..covid_deaths$
 Where continent is not NULL
 GROUP BY continent
 ORDER BY TotalDeathCount desc
-
 
 --Global Numbers
 
@@ -93,7 +91,6 @@ join PortfolioProject..Covid_Vaccinations$ AS vac
 WHERE dea.continent is not NULL
 order by 2,3
 
-
 -- Using CTE to perform Calculation on Partition By in previous query
 
 With PopvsVac (Continent, Location, Date, Population,New_vaccinations, RollingPeopleVaccinated)
@@ -112,9 +109,6 @@ WHERE dea.continent is not NULL
 )
 Select *, (((RollingPeopleVaccinated / 2) / Population) * 100) AS PercentageFullyVaccinated
 From PopvsVac
-
-
-
 
 -- Using Temp Table to perform Calculation on Partition By in previous query
 
