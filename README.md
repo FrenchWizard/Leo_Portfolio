@@ -1,4 +1,4 @@
-# Leo_Portfolio
-Leo's Portfolio
+# Portfolio Projects
+Leo's Portfolio Projects
 
 # Project 1:
