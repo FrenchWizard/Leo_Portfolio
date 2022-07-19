@@ -12,3 +12,8 @@ Leo's Portfolio Projects
   <li>Used Queries to clean the data in this database</li>
   <li>Skills used: Joins, CTE's, and Temp Tables </li>
 </ul>
+# Project 3: Massachusetts Ridesharing Analysis(R, Excel)
+<ul>
+  <li>Used R to find correlation in a database</li>
+  <li>Skills used: Hypothesis-testing,pivot-tables, and statistics  </li>
+</ul>
